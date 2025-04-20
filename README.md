@@ -4,7 +4,7 @@ This project demonstrates how to use deep learning models (LSTM and CNN) to pred
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The project covers the following:
 
@@ -15,21 +15,21 @@ The project covers the following:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python  
-- `yfinance`  
-- `pandas`  
-- `TensorFlow / Keras`  
-- `scikit-learn`  
-- `matplotlib`
+- yfinance
+- pandas  
+- TensorFlow / Keras
+- scikit-learn
+- matplotlib
 
 ---
 
 
 ---
 
-## 📊 Models Used
+## Models Used
 
 ### LSTM (Long Short-Term Memory)
 
@@ -41,7 +41,7 @@ Though commonly used for image processing, CNNs can also learn spatial hierarchi
 
 ---
 
-## 🧪 Model Training
+## Model Training
 
 Both models are trained on sequences of 60 previous stock prices to predict the next price point.
 
@@ -49,5 +49,17 @@ Both models are trained on sequences of 60 previous stock prices to predict the 
 - **Batch Size:** 32  
 - **Loss Function:** Mean Squared Error  
 - **Optimizer:** Adam
+
+## Prediction Plots
+
+### LSTM Model Prediction
+
+![LSTM Prediction](images/Screenshot%20from%202025-04-20%2019-07-37.png)
+
+### CNN Model Prediction
+
+![CNN Prediction](images/Screenshot%20from%202025-04-20%2019-07-48.png)
+
+
 
 
